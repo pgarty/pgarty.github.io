@@ -1,0 +1,40 @@
+body {
+    background-color: #666;
+    /* #RRGGBB */
+}
+
+h1 {
+    color: #969600;
+    font-size: 2.5em;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px black, -1px -1px 1px white;
+}
+
+#MainMenu {
+    background-color: #FFF;
+      padding:10px;
+}
+
+#MainMenu li {
+    display:inline;
+}
+
+#MainMenu a {
+    color: #000000;
+    text-decoration: none;
+    background-color: #969600;
+    padding:10px;
+    margin: 0 10%;
+    font-family: "Franklin Gothic Medium", Helvetica, Arial, sans-serif;
+}
+
+#MainMenu a:hover {
+    color:#969600;
+    background-color: #000000;
+}
+
+#MainMenu a:active {
+    color:#969600;
+    background-color: #FFF;
+}
